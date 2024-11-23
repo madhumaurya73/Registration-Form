@@ -1,0 +1,191 @@
+
+body{
+    background-color: rgb(238, 230, 158);
+}
+#imformation{
+    text-align: center;
+}
+
+.address_box{
+    height: 850px;
+    width: 500px;
+    margin-top: 30px;
+    border: 1px solid rgb(109, 105, 105);
+   background-color:rgb(142, 136, 136,0.7);
+}
+#Entername{
+    position: absolute;
+    left: 130px;
+}
+.name{  
+    position: absolute;
+    left: 120px;
+}
+#user{
+    position: absolute;
+    left: 100px;
+}
+#userid{
+    position: absolute;
+    left: 120px;
+}
+#gmail{
+    position: absolute;
+    left: 100px;
+}
+#enterid{
+    position: absolute;
+    left: 130px;
+}
+.father{
+    position: absolute;
+    left: 120px;
+}
+#familyid{
+    position: absolute;
+    left: 100px;
+}
+#fatherid{
+    position:absolute;
+    left: 130px;
+}
+.mother{
+    position: absolute;
+    left: 130px;
+}
+#motherid{
+    position: absolute;
+    left: 100px;
+}
+.entermaother{
+    position: absolute;
+    left: 130px;
+}
+#gender{
+    position:absolute;
+    left: 120px;
+}
+#one{
+    position: absolute;
+    left: 130px;
+}
+#two{
+    position: absolute;
+    left: 200px;
+}
+#three{
+    position: absolute;
+    left: 290px;
+}
+#word{
+    position: absolute;
+    left: 120px;
+}
+#wordicon{
+    position: absolute;
+    left: 100px;
+}
+#password{
+    position: absolute;
+    left: 130px;
+}
+#add{
+    position: absolute;
+    left: 120px;
+}
+#address{
+    position: absolute;
+    left: 100px;
+}
+#your{
+    position: absolute;
+    left: 130px;
+}
+#city{
+    position: absolute;
+    left: 120px;
+}
+#cityicon{
+    position: absolute;
+    left: 100px;
+}
+#delhi{
+    position: absolute;
+    left: 130px;
+}
+#code{
+    position: absolute;
+    left: 120px;
+}
+#pin{
+    position: absolute;
+    left: 100px;
+}
+#zip{
+    position: absolute;
+    left: 130px;
+}
+#phone{
+    position: absolute;
+    left: 120px;
+}
+#no{
+    position:absolute ;
+    left: 100px;
+}
+.number{
+    position: absolute;
+    left: 130px;
+}
+#course{
+    position: absolute;
+    left: 120px;
+}
+#iconcourse{
+    position: absolute;
+    left: 100px;
+}
+#subject{
+    position: absolute;
+    left: 130px ;
+}
+
+
+#age{
+    position: absolute;
+    left: 120px;
+}
+#year{
+    position: absolute;
+    left: 100px;
+}
+.date{
+    position: absolute;
+    left: 130px;
+}
+#submitted{
+    position: absolute;
+    left: 150px;
+    background-color: rgb(7, 99, 7);
+}
+#terms{
+    position: absolute;
+    left: 120px;
+}
+#reset{
+    position: absolute;
+    left: 250px;
+    background-color: rgb(228, 8, 8);
+}
+#reset:hover{
+        background-color: rgb(212, 74, 74);
+}
+#reset:active{
+    background-color: rgb(104, 7, 7);
+}
+#submitted:hover{
+    background-color:rgb(104, 145, 22);
+}
+#submitted:active{
+    background-color: rgb(10, 70, 10);
+}

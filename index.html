@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>course registration</title>
+</head>
+  <body>
+    <h1 id="hadding">Course Registration Form</h1>
+            <form class="one">
+                <div class="address_box">
+                            <br>
+                            <b class="name">Name</b>
+                            <br>
+                            <i id="user" class="fa-solid fa-user"></i>
+                            <input id="Entername" type="tex" placeholder="Enter your Name">
+                            <br><br>
+                            <b class="father">Father's name</b>
+                            <br>
+                            <i id="familyid" class="fa-solid fa-people-roof"></i>
+                            <input id="fatherid" type="text" placeholder="Enter your father's name">
+                            <br><br>
+                            <b class="mother">Mother's name</b>
+                            <br>
+                            <i id="motherid" class="fa-solid fa-people-roof"></i>
+                            <input class="entermaother" type="text" placeholder="Enter your mother's name">
+                            <br><br>
+
+                            <b id="userid">Email</b>
+                            <br>
+                            <i id="gmail" class="fa-solid fa-envelope"></i>
+                            <input id="enterid" type=" text" placeholder="Enter Your emal">
+                            <br><br>
+                            <b id="age">Age</b>
+                            <br>
+                            <i id="year" class="fa-solid fa-calendar-days"></i>
+                            <input class="date" type="date" placeholder="Enter your age">
+                            <br><br>
+                            <b id="gender">Gender :</b>
+                            <br>
+                            <label id="one">
+                                <input type="radio" value="Male" name="Gender" id="103">Male
+                            </label>
+                            <label id="two">
+                                <input type="radio" value="Female" name="Gender" id="104">Female
+                            </label>      
+                            <label id="three">
+                            <input type="radio" value="Other" name="Gender" id="105">Other
+                        </label>
+                                <br><br>
+                                <b id="word">Password :</b>
+                                <br>
+                                <i  id="wordicon"  class="fa-solid fa-lock"></i>
+                        <input  id="password"  type="password" placeholder="Enter your password">
+                                <br><br>
+                            <b id="add">Address :</b>
+                                <br>
+                            <i id="address" class="fa-solid fa-address-book"></i>
+                            <input id="your" type="text" placeholder="Enter your address">
+                            <br><br>
+                            <b id="city">City :</b>
+                            <br>
+                            <i id="cityicon" class="fa-sharp fa-solid fa-city"></i>
+                            <select name="city" id="delhi">
+                                <option value="Select">Select</option>
+                                <option value="mumbai">Mumbai</option>
+                                <option value="lucknow">Lucknow</option>
+                                <option value="delhi">Delhi</option>
+                                <option value="Mau">Mau</option>
+                                <option value="odisa">Odisa</option>
+                                <option value="Kerala">Kerala</option>
+                                <option value="Bangalore">Bangalore</option>
+                                <option value="Bellary">Bellary</option>
+                                <option value="KolKata">KolKata</option>
+                                <option value="Arley">Arley</option>
+                                <option value="Hyderabad">Hyderabad</option>
+                                <option value="chennai">Chennai</option>
+                                <option value="Azamgarh">Azamgarh</option>
+                                <option value="Aasam">Aasam</option>
+                                <option value="Agra">Agra</option>
+                                <option value="Jaipur">Jaipur</option>
+                                <option value="Gorakhpur">Gorakhpur</option>
+                                <option value=" Rajkot">Rajkot</option>
+                                <option value="pune">Pune</option>
+                                <option value="Ranchi">Ranchi</option>
+                                <option value="Goa">Goa</option>
+                            </select>
+                            <br><br>
+                            <b id="code">Pin Code :</b>
+                            <br>
+                            <i id="pin" class="fa-solid fa-house"></i>
+                            <input id="zip" type="number" placeholder="Enter your pin code">
+                            <br><br>
+                            <b id="phone">Phone No :</b>
+                            <br>
+                            <i id="no" class="fa-solid fa-phone"></i>
+                            <input class="number" type="number" placeholder="Enter your phone No">
+                                <br><br>
+                                <b id="course">Select your course :</b>
+                                <br>
+                                <i id="iconcourse" class="fa-solid fa-book-open"></i>
+                                <select name="course" id="subject">
+                                <option value="Select">Select</option>
+                                <option value="C++">C++</option>
+                                <option value="Python">Python</option>
+                                <option value="java">Java</option>
+                                <option value="Javascript">Javasript</option>
+                                <option value="Digital Marketing">Digital Marketing</option>
+                                <option value="Web Development">Web Development</option>
+                                <option value="Full stack Developer">Full stack Developer</option>
+                                <option value="Software Develpoment">Software Develpoment</option>
+                                <option value="Docker Mastery">Docker Mastery</option>
+                                <option value="C# Programming">C# Programming</option>
+                                <option value="python Django">python Django</option>
+                                <option value="React.Js">React.js</option>
+                                <option value="Machine Learning">machine Learning</option>
+                                <option value="Microsofftware">Microsoftware</option>
+                                <option value="Node.js">Node.js</option>
+                                </select>
+                                <br><br>
+                                    
+                                    <label id="terms" name="accept">
+                                    <input type="checkbox" name="terms and conditions" value="accept" required>I agree terms and conditions
+                                </label>
+                                    <br><br>
+                                    <br>  
+                                    <button id="submitted">Submit</button>
+                                    <button id="reset">Reset</button>
+                </div>            
+               
+            </form>     
+  </body>
+</html>
